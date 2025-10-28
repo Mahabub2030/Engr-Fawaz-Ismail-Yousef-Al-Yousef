@@ -85,13 +85,14 @@ const Hero = () => {
                 </a>
               </div>
             </div>
-            <div className="md:w-1/2 relative flex justify-center items-end">
-              <img
-                src={hero}
-                alt="Engr Fawaz"
-                className="h-[20vh]  md:h-[60vh] lg:h-[60vh] w-[60vh] object-cover rounded-xl"
-              />
-            </div>
+            <div className="w-full md:w-1/2 flex justify-center items-end relative">
+  <img
+    src={hero}
+    alt="Engr Fawaz"
+    className="w-3/4 sm:w-2/3 md:w-full lg:w-[80%] h-auto object-cover rounded-2xl max-h-[70vh]"
+  />
+</div>
+
           </div>
         </div>
         <div className="absolute top-40 right-10 hidden bg-gray-200 p-4  md:flex flex-col gap-6 rounded-full">
