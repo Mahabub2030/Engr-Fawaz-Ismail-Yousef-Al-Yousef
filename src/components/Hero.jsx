@@ -89,7 +89,7 @@ const Hero = () => {
               <img
                 src={hero}
                 alt="Engr Fawaz"
-                className="h-56 md:h-[70vh] lg:h-[80vh] w-full object-cover rounded-xl"
+                className="h-[20vh]  md:h-[60vh] lg:h-[60vh] w-[60vh] object-cover rounded-xl"
               />
             </div>
           </div>
